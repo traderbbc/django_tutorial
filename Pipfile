@@ -4,12 +4,20 @@ verify_ssl = true
 name = "pypi"
 
 [dev-packages]
+ipdb = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-django = "*"
 
 [packages]
 django = "*"
 python-decouple = "*"
 dj-database-url = "*"
 dj-static = "*"
+djangorestframework = "*"
+django-extensions = "*"
+pytest = "*"
+pytest-django = "*"
 
 [requires]
 python_version = "3.7"
